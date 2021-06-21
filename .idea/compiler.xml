@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Thread-study" />
+        <module name="Design-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Design-study" target="1.8" />
       <module name="Thread-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Design-study" options="-parameters" />
       <module name="Thread-study" options="-parameters" />
     </option>
   </component>
